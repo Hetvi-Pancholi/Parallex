@@ -98,3 +98,164 @@ section{
 
     
 }
+/* Responsive CSS for max-width 800px */
+@media (max-width: 800px) {
+    h1 {
+        font-size: 5rem;  /* Reduce heading size */
+        top: 2rem;  /* Move heading a little higher */
+    }
+
+    .secHeading {
+        font-size: 3rem;  /* Reduce section heading size */
+        padding: 0 2rem;  /* Reduce padding */
+    }
+
+    .text {
+        font-size: 1.2rem;  /* Reduce font size for paragraphs */
+        padding: 0 2rem;  /* Reduce padding */
+        margin: 2rem 0;  /* Reduce margin */
+    }
+
+    .desc {
+        font-size: 2rem;  /* Adjust description text size */
+        padding: 0.5rem 1.5rem;  /* Adjust padding */
+    }
+
+    .bg {
+        height: 300px;  /* Reduce the height of the parallax sections */
+    }
+
+    .container {
+        justify-content: center;
+        align-items: flex-start;  /* Adjust alignment for better view on smaller screens */
+    }
+
+    .background, .foreground {
+        transform: translateZ(-10px) scale(2);  /* Adjust parallax depth for smaller screens */
+    }
+
+    section {
+        padding: 2rem 0;  /* Reduce padding */
+    }
+}
+/* Responsive CSS for max-width 1000px */
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 7rem;  /* Reduce heading size */
+        top: 3rem;  /* Adjust heading position */
+    }
+
+    .secHeading {
+        font-size: 4rem;  /* Reduce section heading size */
+        padding: 0 5rem;  /* Reduce padding */
+    }
+
+    .text {
+        font-size: 1.3rem;  /* Slightly reduce paragraph font size */
+        padding: 0 5rem;  /* Adjust padding */
+        margin: 3rem 0;  /* Adjust margin */
+    }
+
+    .desc {
+        font-size: 2.5rem;  /* Adjust description text size */
+        padding: 0.5rem 2rem;  /* Adjust padding */
+    }
+
+    .bg {
+        height: 400px;  /* Reduce height of parallax sections */
+    }
+
+    .container {
+        justify-content: center;
+        align-items: flex-start;  /* Adjust alignment */
+    }
+
+    .background, .foreground {
+        transform: translateZ(-20px) scale(3);  /* Adjust parallax depth */
+    }
+
+    section {
+        padding: 3rem 0;  /* Reduce padding */
+    }
+}
+/* Responsive CSS for max-width 500px */
+@media (max-width: 500px) {
+    h1 {
+        font-size: 4rem;  /* Reduce heading size */
+        top: 2rem;  /* Adjust heading position */
+    }
+
+    .secHeading {
+        font-size: 2.5rem;  /* Reduce section heading size */
+        padding: 0 2rem;  /* Reduce padding */
+    }
+
+    .text {
+        font-size: 1rem;  /* Reduce paragraph font size */
+        padding: 0 1.5rem;  /* Reduce padding */
+        margin: 2rem 0;  /* Adjust margin */
+    }
+
+    .desc {
+        font-size: 1.8rem;  /* Adjust description text size */
+        padding: 0.3rem 1.5rem;  /* Reduce padding */
+    }
+
+    .bg {
+        height: 300px;  /* Reduce height of parallax sections */
+    }
+
+    .container {
+        justify-content: center;
+        align-items: flex-start;  /* Adjust alignment */
+    }
+
+    .background, .foreground {
+        transform: translateZ(-10px) scale(2);  /* Adjust parallax depth */
+    }
+
+    section {
+        padding: 2rem 0;  /* Reduce padding */
+    }
+}
+/* Responsive CSS for max-width 350px */
+@media (max-width: 350px) {
+    h1 {
+        font-size: 2.5rem;  /* Reduce heading size */
+        top: 1.5rem;  /* Adjust heading position */
+        letter-spacing: 2px;  /* Narrow the letter spacing */
+    }
+
+    .secHeading {
+        font-size: 1.8rem;  /* Further reduce section heading size */
+        padding: 0 1rem;  /* Reduce padding */
+    }
+
+    .text {
+        font-size: 0.9rem;  /* Further reduce paragraph font size */
+        padding: 0 1rem;  /* Reduce padding for mobile */
+        margin: 1.5rem 0;  /* Adjust margin for small screens */
+    }
+
+    .desc {
+        font-size: 1.2rem;  /* Adjust description text size */
+        padding: 0.2rem 1rem;  /* Reduce padding */
+    }
+
+    .bg {
+        height: 200px;  /* Reduce height of parallax sections for smaller screens */
+    }
+
+    .container {
+        justify-content: center;
+        align-items: flex-start;  /* Keep items aligned */
+    }
+
+    .background, .foreground {
+        transform: translateZ(-5px) scale(1.5);  /* Reduce parallax depth */
+    }
+
+    section {
+        padding: 1.5rem 0;  /* Reduce padding */
+    }
+}
